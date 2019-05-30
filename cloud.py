@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 matplotlib.use("GTK3Agg")
 
 # Read file
-datafile = pd.read_csv(r"data/test.csv", encoding="utf-8")
+datafile = pd.read_csv(r"values.csv", encoding="utf-8")
 
 comment_words = " "
 stop_words = set(STOPWORDS)
